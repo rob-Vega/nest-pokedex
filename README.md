@@ -29,6 +29,22 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
+5. Renombrar  ```.env.template``` a ```.env```
+
+6. Asignar variables de entorno en ```.env```
+
+7. Ejecutar la aplicacion en dev:
+
+```
+npm run star:dev
+```
+
+6. Reconstruir BD
+
+```
+http://localhost:3000/api/v2/seed
+```
+
 ## Stack Utilizado
 * MongoDB
 * Nest
